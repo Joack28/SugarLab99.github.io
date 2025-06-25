@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Eventos | Sugar Lab 99</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+    body { background-color: #e3f2fd; }
+    .navbar { background-color: #2196f3; }
+    .navbar a, .navbar-brand { color: white !important; }
+    footer { background-color: #0d47a1; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
+    .evento-card {
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      background-color: white;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+    }
+    .evento-card img {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      height: 200px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Sugar Lab 99</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+        <li class="nav-item"><a class="nav-link" href="menu.html">Menú</a></li>
+        <li class="nav-item"><a class="nav-link" href="especiales.html">Especiales</a></li>
+        <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
+        <li class="nav-item"><a class="nav-link" href="reserva.html">Reserva</a></li>
+        <li class="nav-item"><a class="nav-link active" href="eventos.html">Eventos</a></li>
+        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        <li class="nav-item"><a class="nav-link" href="ubicacion.html">Ubicación</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container my-5">
+  <h1 class="text-center mb-4">🧪 Eventos Especiales en Sugar Lab 99</h1>
+  <p class="text-center mb-5">Vive experiencias únicas con nuestros eventos temáticos inspirados en *Breaking Bad*. ¡Reserva tu lugar!</p>
+
+  <div class="row">
+
+    <div class="col-md-4">
+      <div class="evento-card">
+        <img src="crearcristal.jpg" class="w-100" alt="Taller de cristal de azúcar">
+        <div class="p-3">
+          <h5>Taller: Crea tu propio cristal</h5>
+          <p>Aprende a hacer cristales de azúcar comestibles como Heisenberg. ¡Incluye delantal de laboratorio!</p>
+          <p><strong>Fecha:</strong> 15 de julio<br><strong>Hora:</strong> 18:00</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-4">
+      <div class="evento-card">
+        <img src="cumpleaños.jpg" class="w-100" alt="Cumpleaños temático">
+        <div class="p-3">
+          <h5>Cumpleaños en el laboratorio</h5>
+          <p>¡Celebra tu día especial con decoraciones químicas, menús personalizados y tubos de ensayo llenos de sorpresas!</p>
+          <p><strong>Fecha:</strong> 20 de julio<br><strong>Hora:</strong> A coordinar</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-4">
+      <div class="evento-card">
+        <img src="braking.webp" class="w-100" alt="Noche temática Breaking Bad">
+        <div class="p-3">
+          <h5>Noche temática Breaking Bad</h5>
+          <p>Disfruta de un menú exclusivo mientras ves capítulos seleccionados. ¡Vístete como tu personaje favorito!</p>
+          <p><strong>Fecha:</strong> 27 de julio<br><strong>Hora:</strong> 20:00</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2025 Sugar Lab 99. Todos los derechos reservados.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
